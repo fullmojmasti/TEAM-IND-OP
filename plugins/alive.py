@@ -8,28 +8,6 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
-START_TIME = datetime.utcnow()
-START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
-TIME_DURATION_UNITS = (
-    ('week', 60 * 60 * 24 * 7),
-    ('day', 60 * 60 * 24),
-    ('hour', 60 * 60),
-    ('min', 60),
-    ('sec', 1)
-)
-
-async def _human_time_duration(seconds):
-    if seconds == 0:
-        return 'inf'
-    parts = []
-    for unit, div in TIME_DURATION_UNITS:
-        amount, seconds = divmod(int(seconds), div)
-        if amount > 0:
-            parts.append('{} {}{}'
-                         .format(amount, unit, "" if amount == 1 else "s"))
-    return ', '.join(parts)
-
-
 
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
@@ -64,14 +42,14 @@ Eɳʝσყ Bҽʂƚ Qυαʅιƚყ ❥︎ Mυʂιƈ.
     
 @Client.on_message(commandpro(["/start", f"/start@{BOT_USERNAME}", "/alive", "/BGT",  ".Kaal"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
-    await message.reply_photo()
+    await message.reply_photo(
        photo=f"https://te.legra.ph/file/c6e1041c6c9a12913f57a.png",
-        caption=f"""""",
-        reply_markup=InlineKeyboardMarkup(
+         caption=f"""""",       
+     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 𝐂𝐥𝐢𝐜𝐤 𝐌𝐞 𝐓𝐨 𝐆𝐞𝐭 𝐑𝐞𝐩𝐨 💞", url=f"{SOURCE_CODE}")
+                               "⛪ Jσιɳ Oυɾ Cԋαƚ Gɾσυρ  🗽", url=f"https://t.me/FULL_ON_MOJJ_MASTI")
                 ]
             ]
         ),
