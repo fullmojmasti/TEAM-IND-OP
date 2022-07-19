@@ -35,21 +35,17 @@ chat_id = None
 useer = "NaN"
 
 themes = [
-    "bgreen",
-    "blue",
-    "colorfull",
-    "dgreen",
-    "hgreen",
-    "lgreen",
-    "lyellow",
-    "orange",
+    "colourful",
+    "cutedoll",
+    "cutegirl",
+    "cutepie",
+    "love",
+    "masti",
     "pink",
-    "purple",
-    "rainbow",
-    "red",
+    "rabbit",
+    "rose",
     "sky",
-    "thumbnail",
-    "yellow",
+  
 ]
 
 def transcode(filename):
@@ -127,7 +123,7 @@ async def play(_, message: Message):
     global que
     global useer
     await message.delete()
-    lel = await message.reply("**🔎 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 ...**")
+    lel = await message.reply("**🔎Zoney Ki GF Dhund Rahi Hu...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -159,12 +155,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🥀 𝐏𝐥𝐞𝐚𝐬𝐞 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🌺 𝐀𝐝𝐝 [𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭](t.me/{ASSISTANT_USERNAME}) 🎸 𝐢𝐧 𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩 ♥️ 𝐎𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 [𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ](https://t.me/{OWNER_USERNAME}) ✨ **")
+                        f"**🥀 𝐏𝐥𝐞𝐚𝐬𝐞 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🌺 𝐀𝐝𝐝 [𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭](https://t.me/FULL_ON_MOJ) 🎸 𝐢𝐧 𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩 ♥️ 𝐎𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 [𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ](https://t.me/{OWNER_USERNAME}) ✨ **")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🥀 𝐏𝐥𝐞𝐚𝐬𝐞 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🌺 𝐀𝐝𝐝 [𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭](t.me/{ASSISTANT_USERNAME}) 🎸 𝐢𝐧 𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩 ♥️ 𝐎𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 [𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ](https://t.me/{OWNER_USERNAME}) ✨ **")
+            f"**🥀 𝐏𝐥𝐞𝐚𝐬𝐞 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🌺 𝐀𝐝𝐝 [𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭](https://t.me/FULL_ON_MOJ) 🎸 𝐢𝐧 𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩 ♥️ 𝐎𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 [𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ](https://t.me/{OWNER_USERNAME}) ✨ **")
         return
     
     audio = (
@@ -192,21 +188,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/{OWNER_USERNAME}")
+                            url=f"https://t.me/itszoney")
                ],
                [
                     InlineKeyboardButton(
-                            text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"{UPDATES_CHANNEL}"),
+                            text="𝐇𝐚𝐜𝐤𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥",
+                            url=f"https://t.me/TEAM_IND_OFFICIAL"),
                             
                     InlineKeyboardButton(
-                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"{SUPPORT_GROUP}")
+                            text="𝐌𝐚𝐬𝐭𝐢 𝐆𝐫𝐨𝐮𝐩 💬",
+                            url=f"https://t.me/FULL_ON_MOJJ_MASTI")
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
+                            text="💖 𝐒𝐭𝐚𝐭𝐮𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🌺",
+                            url=f"https://t.me/OP_STATUS")
                    
                 ]
             ]
@@ -245,21 +241,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/{OWNER_USERNAME}")
+                            url=f"https://t.me/itszoney")
                ],
                [
                     InlineKeyboardButton(
-                            text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"{UPDATES_CHANNEL}"),
+                            text="𝐇𝐚𝐜𝐤𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥",
+                            url=f"https://t.me/TEAM_IND_OFFICIAL"),
                             
                     InlineKeyboardButton(
-                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"{SUPPORT_GROUP}")
+                            text="𝐌𝐚𝐬𝐭𝐢 𝐆𝐫𝐨𝐮𝐩 💬",
+                            url=f"https://t.me/FULL_ON_MOJJ_MASTI")
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
+                            text="💖 𝐒𝐭𝐚𝐭𝐮𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🌺",
+                            url=f"https://t.me/OP_STATUS")
                    
                 ]
             ]
@@ -275,21 +271,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/{OWNER_USERNAME}")
+                            url=f"https://t.me/itszoney")
                ],
                [
                     InlineKeyboardButton(
-                            text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"{UPDATES_CHANNEL}"),
+                            text="𝐇𝐚𝐜𝐤𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥",
+                            url=f"https://t.me/TEAM_IND_OFFICIAL"),
                             
                     InlineKeyboardButton(
-                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"{SUPPORT_GROUP}")
+                            text="𝐌𝐚𝐬𝐭𝐢 𝐆𝐫𝐨𝐮𝐩 💬",
+                            url=f"https://t.me/FULL_ON_MOJJ_MASTI")
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
+                            text="💖 𝐒𝐭𝐚𝐭𝐮𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🌺",
+                            url=f"https://t.me/OP_STATUS")
                    
                 ]
             ]
@@ -343,21 +339,21 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="🥀 𝐎𝐰𝐧𝐞𝐫'𝐱𝐃 🕊️",
-                            url=f"https://t.me/{OWNER_USERNAME}")
+                            url=f"https://t.me/itszoney")
                ],
                [
                     InlineKeyboardButton(
-                            text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                            url=f"{UPDATES_CHANNEL}"),
+                            text="𝐇𝐚𝐜𝐤𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥",
+                            url=f"https://t.me/TEAM_IND_OFFICIAL"),
                             
                     InlineKeyboardButton(
-                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
-                            url=f"{SUPPORT_GROUP}")
+                            text="𝐌𝐚𝐬𝐭𝐢 𝐆𝐫𝐨𝐮𝐩 💬",
+                            url=f"https://t.me/FULL_ON_MOJJ_MASTI")
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"{PROFILE_CHANNEL}")
+                            text="💖 𝐒𝐭𝐚𝐭𝐮𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🌺",
+                            url=f"https://t.me/OP_STATUS")
                    
                 ]
             ]
@@ -396,7 +392,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 𝐌𝐮𝐬𝐢𝐜 🌺 𝐑𝐨𝐛𝐨𝐭 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
+            caption="**💥 𝐓𝐞𝐚𝐦 𝐈𝐍𝐃 𝐌𝐮𝐬𝐢𝐜 🌺 𝐑𝐨𝐛𝐨𝐭 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
            )
 
     os.remove("final.png")
@@ -409,7 +405,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await message.delete()
     await clientbot.pytgcalls.pause_stream(message.chat.id)
-    await message.reply_text("**▶️ 𝐏𝐚𝐮𝐬𝐞𝐝 🌷 ...**"
+    await message.reply_text("**▶️ 𝐑𝐮𝐤 𝐆𝐚𝐲𝐚 🌷 ...**"
     )
 
 
@@ -419,7 +415,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await message.delete()
     await clientbot.pytgcalls.resume_stream(message.chat.id)
-    await message.reply_text("**⏸ 𝐑𝐞𝐬𝐮𝐦𝐞𝐝 🌷 ...**"
+    await message.reply_text("**⏸ 𝐜𝐡𝐚𝐥𝐮 🌷 ...**"
     )
 
 
@@ -435,7 +431,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💥 𝐑𝐨𝐛𝐨𝐭 💞 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 🔇\n🚫 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**")
+        await message.reply_text("**💥 𝐉𝐚𝐧𝐮 💞 𝐒𝐨𝐧𝐠 𝐏𝐥𝐚𝐲 𝐍𝐚𝐡𝐢 𝐉𝐨 𝐑𝐚𝐡𝐚 ...**")
     else:
         queues.task_done(chat_id)
         
@@ -443,7 +439,7 @@ async def skip(_, message: Message):
             await message.reply_text("**🥀 𝑸𝒖𝒆𝒖𝒆 𝑬𝒎𝒑𝒕𝒚, 𝑳𝒆𝒂𝒗𝒊𝒏𝒈 𝑽𝑪 ✨ ...**") 
             await clientbot.pytgcalls.leave_group_call(chat_id)
         else:
-            await message.reply_text("**⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 🌷 ...**") 
+            await message.reply_text("**⏩ 𝐒𝐤𝐢𝐩 𝐐 𝐊𝐢𝐲𝐚 𝐍𝐨𝐨𝐛😒...**") 
             await clientbot.pytgcalls.change_stream(
                 chat_id, 
                 InputStream(
@@ -466,7 +462,7 @@ async def stop(_, message: Message):
         pass
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
-    await message.reply_text("**❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 🌷 ...**"
+    await message.reply_text("**𝐍𝐨𝐨𝐛𝐝𝐞 𝐄𝐧𝐝 𝐊𝐚𝐫 𝐃𝐢𝐲𝐚😒...**"
     )
 
 
@@ -481,4 +477,4 @@ async def update_admin(client, message):
     for u in new_ads:
         new_admins.append(u.user.id)
     a[message.chat.id] = new_admins
-    await message.reply_text("**🔥 𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 🌷 ...**")
+    await message.reply_text("**𝐓𝐚𝐩𝐚 𝐓𝐚𝐩...**")
