@@ -1,7 +1,7 @@
 ### Best Smart Voice Chat Music Robot For Telegram Groups ...
 
 
-<p align="center"><a href="https://t.me/adityahalder"><img src="https://te.legra.ph/file/c6e1041c6c9a12913f57a.png"></a></p>
+<p align="center"><a href="https://t.me/MASOOM_B0Y"><img src="https://telegra.ph/file/865f461cf42ca9d6cea1d.png"></a></p>
 
 
 ### Deploy On OkTeto
@@ -11,7 +11,7 @@
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/adityabots/tgmusicbot)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fullmojmasti/TEAM-IND-OP/tgmusicbot)
 
 
 
@@ -24,4 +24,4 @@
 #### Copy Pasters You Can Copy This But Must Give Credits ...
 
 ### Owner Of This Repository
-[![Aditya Halder](https://te.legra.ph/file/8f9d2a593854d0c736201.png)](https://t.me/AdityaHalder)
+[![𝐌𝐀𝐒𝐎𝐎𝐌 𝐁𝐎𝐘](https://telegra.ph/file/747d4ef06bb09630df7c4.png)](https://t.me/MASOOM_B0Y)
