@@ -39,7 +39,4 @@ Eɳʝσყ Bҽʂƚ Qυαʅιƚყ ❥︎ Mυʂιƈ.
         ),
     )
     
-    
-@Client.on_message(commandpro(["/start", f"/start@{BOT_USERNAME}", "/alive", "/BGT",  ".Kaal"]) & filters.group & ~filters.edited)
-async def start(client: Client, message: Message):
-    await message.reply_photo(
+
