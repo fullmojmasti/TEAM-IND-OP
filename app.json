@@ -7,7 +7,7 @@
         "telegram bot",
         "pyrogram"
     ],
-    "repository": "https://github.com/TEAM-IND-OP"
+    "repository": "https://github.com/fullmojmasti/TEAM-IND-OP"
     "success_url": "https://t.me/ArchBots",
     "env": {
         "API_ID": {
